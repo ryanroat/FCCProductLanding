@@ -1,0 +1,87 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* * {
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  * * {
+    background-color: rgba(0, 255, 0, 0.2);
+  }
+  * * * {
+    background-color: rgba(0, 0, 255, 0.2);
+  }
+  * * * * {
+    background-color: rgba(255, 0, 255, 0.2);
+  }
+  * * * * * {
+    background-color: rgba(0, 255, 255, 0.2);
+  }
+  * * * * * * {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  * * * * * * * {
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  * * * * * * * * {
+    background-color: rgba(0, 255, 0, 0.2);
+  }
+  * * * * * * * * * {
+    background-color: rgba(0, 0, 255, 0.2);
+  } */
+
+body {
+  background-color: #dfdbe5;
+  font-size: 16px;
+}
+
+#header {
+  padding: 10px 16px;
+  background: #777;
+  color: #f1f1f1;
+}
+
+#nav-bar {
+  text-align: right;
+  display: inline-block;
+  width: auto;
+  margin: 0.5em;
+  padding: 0.5em;
+  size: 2rem;
+  position: sticky;
+}
+
+.nav-link {
+  right: 30%;
+  margin: 2rem;
+  text-align: right;
+  color: #222;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#main {
+  padding: 16px;
+}
+
+#link1 {
+  top: 250px;
+  bottom: 250px;
+  padding: 10px;
+}
+#link2 {
+  top: 250px;
+  bottom: 250px;
+  padding: 10px;
+}
+#link3 {
+  top: 250px;
+  bottom: 250px;
+  padding: 10px;
+}
+
+#footer {
+  position: absolute;
+  top: 500px;
+  text-align: center;
+}

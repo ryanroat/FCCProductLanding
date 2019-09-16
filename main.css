@@ -15,21 +15,30 @@ body {
   display: inline;
 }
 
+#top-bumper {
+  top: 0;
+  padding: 50px;
+  position: fixed;
+  width: 100%;
+  background-color: #dfdbe5;
+}
+
 #header {
   padding: 10px 16px;
-  background: #777;
+  background: rgb(85, 15, 76);
   color: #f1f1f1;
   width: 100%;
-  min-height: 2rem;
+  max-height: 4rem;
   position: fixed;
-  top: 0;
+  top: 50px;
 }
 
 #header-img {
+  top: -60px;
   float: left;
   position: relative;
   height: auto;
-  width: 35%;
+  width: 10%;
 }
 
 #nav-bar {
@@ -42,17 +51,18 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #222;
+  color: #f1f1f1;
   font-size: 1.5rem;
   padding: 4rem;
 }
 
 #main {
-  margin-top: 4rem;
+  margin-top: 15%;
 }
 
 #footer {
   position: absolute;
   top: 1500px;
+  right: 50%;
   text-align: center;
 }
