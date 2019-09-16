@@ -46,20 +46,46 @@ body {
   float: right;
   position: relative;
   height: auto;
-  width: 65%;
+  width: 75%;
 }
 
 .nav-link {
   text-decoration: none;
   color: #f1f1f1;
   font-size: 1.5rem;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 #main {
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
+#hero {
+  top: -1rem;
+  color: #111;
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+#form {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#link1 {
+  margin: 2rem 20%;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+
+#link2 {
+  margin: 2rem 20%;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
 #footer {
   position: absolute;
   top: 1500px;
