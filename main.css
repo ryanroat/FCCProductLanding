@@ -5,9 +5,24 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #dfdbe5;
   font-size: 16px;
+}
+
+h3 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+li {
+  list-style-type: none;
+  margin: 15px;
 }
 
 #header-img,
@@ -26,7 +41,7 @@ body {
 #header {
   padding: 10px 16px;
   background: rgb(85, 15, 76);
-  color: #f1f1f1;
+  color: #dfdbe5;
   width: 100%;
   max-height: 4rem;
   position: fixed;
@@ -46,7 +61,7 @@ body {
   float: right;
   position: relative;
   height: auto;
-  width: 75%;
+  width: 70%;
 }
 
 .nav-link {
@@ -86,6 +101,10 @@ body {
   font-size: 1.5rem;
   padding: 1.5rem;
 }
+
+li > #link2 {
+}
+
 #footer {
   position: absolute;
   top: 1500px;
