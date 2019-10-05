@@ -32,7 +32,7 @@ li {
 
 #top-bumper {
   top: 0;
-  padding: 50px;
+  padding: 15px;
   position: fixed;
   width: 100%;
   background-color: #dfdbe5;
@@ -43,13 +43,13 @@ li {
   background: rgb(85, 15, 76);
   color: #dfdbe5;
   width: 100%;
-  max-height: 4rem;
+  max-height: 8rem;
   position: fixed;
-  top: 50px;
+  top: 15px;
 }
 
 #header-img {
-  top: -60px;
+  top: -25px;
   float: left;
   position: relative;
   height: auto;
@@ -68,7 +68,11 @@ li {
   text-decoration: none;
   color: #f1f1f1;
   font-size: 1.5rem;
-  padding: 2rem;
+  padding: 0 2rem;
+}
+.nav-link:hover {
+  color: #fff;
+  text-shadow: 2px 2px 8px #fff;
 }
 
 #main {
@@ -90,14 +94,19 @@ li {
   padding: 1rem;
 }
 
+#about {
+  display: flex;
+  justify-content: space-around;
+}
+
 #link1 {
-  margin: 2rem 20%;
+  margin: 2rem;
   font-size: 1.5rem;
   padding: 1.5rem;
 }
 
 #link2 {
-  margin: 2rem 20%;
+  margin: 2rem;
   font-size: 1.5rem;
   padding: 1.5rem;
 }
