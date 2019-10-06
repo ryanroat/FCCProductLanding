@@ -39,10 +39,10 @@ li {
 }
 
 #header {
-  border: dashed 2px red;
+  /* border: dashed 2px red; */
   display: flex;
-  justify-content: space-between;
-  /* padding: 10px 16px; */
+  justify-content: space-around;
+  padding: 10px 16px;
   background: rgb(85, 15, 76);
   color: #dfdbe5;
   width: 100%;
@@ -51,20 +51,24 @@ li {
   top: 15px;
 }
 #header > div {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   text-align: center;
   vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: auto;
+  height: 100px;
+  line-height: 100px;
 }
 
+/* #header-img {
+  top: -25px;
+  float: left;
+  position: relative;
+  height: auto;
+  width: 10%;
+} */
+
 #header-img {
-  /* top: -25px; */
-  /* float: left;
-  position: relative; */
-  /* height: auto; */
-  /* width: 10%; */
+  width: 100px;
 }
 
 /* #nav-bar {
