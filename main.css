@@ -42,7 +42,7 @@ li {
   /* border: dashed 2px red; */
   display: flex;
   justify-content: space-around;
-  padding: 10px 16px;
+  padding: 0 16px;
   background: rgb(85, 15, 76);
   color: #dfdbe5;
   width: 100%;
@@ -55,8 +55,8 @@ li {
   text-align: center;
   vertical-align: middle;
   width: auto;
-  height: 100px;
-  line-height: 100px;
+  height: min-content;
+  line-height: 125px;
 }
 
 /* #header-img {
@@ -68,7 +68,7 @@ li {
 } */
 
 #header-img {
-  width: 100px;
+  height: 100px;
 }
 
 /* #nav-bar {
@@ -144,9 +144,26 @@ li {
   font-size: 1.25rem;
 }
 
+#video {
+  margin: auto;
+}
+
 #footer {
   position: absolute;
   top: 1500px;
   right: 50%;
   text-align: center;
+}
+
+@media (max-width:1550) {
+  #header {
+    background-color: #111;
+    max-height: none;
+  }
+}
+
+@media (max-width:1050px) {
+  #about {
+    flex-direction: column;
+  }
 }
